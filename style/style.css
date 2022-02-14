@@ -45,3 +45,8 @@ button.btn.custom-btn:active:focus{
     box-shadow: 0 0 0 0.25rem rgb(0, 0, 0);
     outline: 2px solid white;
 }
+
+.dropdown-item.ps-icon-dropdown{
+    max-width: 100px;
+    min-width: 0;
+}
