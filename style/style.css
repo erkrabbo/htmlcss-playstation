@@ -1,6 +1,8 @@
 @media (min-width: 992px){
-    .list-element-right{
+
+    .dropdown.list-element-right{
         margin-left: auto;
+        margin-right: 1rem;
     }
 
     .dropdown-menu.dropdown-menu-right{
@@ -12,9 +14,23 @@
         margin-left: 1rem;
         margin-right: 1rem;
     }
+
+    .login-search{
+        display: flex;
+        width: 150px;
+    }
+
+    .login-search button{
+        margin-left: 1rem;
+
+        margin-right: 1.5rem;
+    }
 }
 
 
+.list-element-right{
+    margin: auto;
+}
 
 button.btn.custom-btn{
     line-height: 1rem;
