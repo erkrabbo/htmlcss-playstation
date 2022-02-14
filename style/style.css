@@ -1,0 +1,10 @@
+@media (min-width: 992px){
+    .list-element-right{
+        margin-left: auto;
+    }
+
+    .dropdown-menu.dropdown-menu-right{
+        right: 0;
+        left: auto;
+    }
+}
