@@ -31,6 +31,16 @@
     border-radius: 20px;
 }
 
+.reset-link{
+    text-decoration: none;
+    color: white;
+
+    background-color: var(--ps-new-arrivals-background);
+}
+
+.reset-link:hover{
+    color: white;
+}
 
 
 
@@ -161,6 +171,41 @@ button.btn.custom-btn.red:active:focus{
     height: calc(100vh - var(--header-height));
 }
 
+
+
+
+
+
+.thumbnails .img-thumbnail{
+    border: 3px solid transparent;
+}
+
+.thumbnails .img-thumbnail.active, .thumbnails .img-thumbnail.active:hover{
+    border-color: blue;
+}
+
+.thumbnails .img-thumbnail:hover{
+    border-color: lightgrey;
+}
+
+
+
+
+
+
+.console-object{
+    border: 3px solid transparent;
+    opacity: .5;
+}
+
+.console-object.active{
+    border-bottom-color: blue;
+    opacity: 1;
+}
+
+.console-object:hover{
+    opacity: 1;
+}
 
 
 
