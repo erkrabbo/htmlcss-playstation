@@ -164,10 +164,18 @@ button.btn.custom-btn.red:active:focus{
     background-size: cover;
 }
 
-.plus-img{
-    height: 100%;
+
+.social-logo{
+    width: 50%;
 }
 
+
+@media screen and (min-width: 576px) {
+    .social-logo{
+        width: 25%;
+    }
+    
+}
 
 
 
