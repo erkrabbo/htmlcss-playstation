@@ -48,5 +48,24 @@ button.btn.custom-btn:active:focus{
 
 .dropdown-item.ps-icon-dropdown{
     max-width: 100px;
-    min-width: 0;
+    min-width: none;
+}
+
+.fs-7{
+    font-size: .9rem;
+}
+
+.nested-menu-list{
+    text-decoration: none;
+
+    color: black;
+}
+.nested-menu-list::before{
+    content: "\1F535";
+    font-size: .3rem;
+
+    line-height: 1rem;
+    vertical-align: middle;
+
+    margin-right: .3rem;
 }

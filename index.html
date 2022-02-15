@@ -22,7 +22,7 @@
         <div class="container-fluid">
             
             <!-- nav menu, expands only in lg -->
-            <nav class="navbar navbar-expand-lg flex-grow-1 navbar-light">
+            <nav class="navbar navbar-expand-lg flex-grow-1 navbar-light bg-white">
                 <a class="navbar-brand" href="#">
                     <img src="img/play_logo.svg" width="40px" alt="">
                 </a>
@@ -31,111 +31,313 @@
                 </button>
                 <div class="collapse navbar-collapse align-items-baseline" id="navbarNavDropdown">
                     <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Giochi
-                        <img src="img/chevron-down-solid.svg" width="10px" height="10px" alt="">
-                        </a>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Giochi
+                            <img src="img/chevron-down-solid.svg" width="10px" height="10px" alt="">
+                            </a>
 
-                        <div class="dropdown-menu border-0 bg-light text-center" aria-labelledby="navbarDropdownMenuLink">
-                            <div class="d-flex">
-                                <card class="dropdown-item ps-icon-dropdown justify-content-center" href="#">
-                                    <img src="img/play-menu-ico.png" class="img-fluid" alt="">
-                                    <span class="d-block">
-                                        Playstation 5
-                                    </span>     
-                                </card>
-                                <card class="dropdown-item ps-icon-dropdown" href="#">
-                                    <img src="img/play-menu-ico.png" class="img-fluid" alt="">
-                                    <span class="d-block">
-                                        Playstation 4
-                                    </span> 
+                            <div class="dropdown-menu border-0 bg-white text-center" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="d-flex justify-content-center">
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7">
+                                            Playstation 5
+                                        </p>     
+                                    </card>
+
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7">
+                                            Playstation 4
+                                        </p>                                        
+                                    </card>
+        
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7 text-truncate">
+                                            Playstation 3
+                                        </p>       
+                                    </card>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-item text-center" href="#">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
                                         
-                                </card>
-    
-                                <card class="dropdown-item ps-icon-dropdown" href="#">
-                                    <img src="img/play-menu-ico.png" class="img-fluid" alt="">
-                                    <span class="d-block">
-                                        Playstation 3
-                                    </span>     
-                                </card>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
+                        </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Hardware
-                        <img src="img/chevron-down-solid.svg" width="10px" height="10px" alt="">
-                        </a>
-                        <div class="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Hardware
+                            <img src="img/chevron-down-solid.svg" width="10px" height="10px" alt="">
+                            </a>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Servizi
-                        <img src="img/chevron-down-solid.svg" width="10px" height="10px" alt="">
-                        </a>
-                        <div class="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
+                            <div class="dropdown-menu border-0 bg-white text-center" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="d-flex justify-content-center">
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Novità
-                        <img src="img/chevron-down-solid.svg" width="10px" height="10px" alt="">
-                        </a>
-                        <div class="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
+                                        <p class="fs-7">
+                                            Playstation 5
+                                        </p>     
+                                    </card>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Fai acquisti
-                        <img src="img/chevron-down-solid.svg" width="10px" height="10px" alt="">
-                        </a>
-                        <div class="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Supporto
-                        <img src="img/chevron-down-solid.svg" width="10px" height="10px" alt="">
-                        </a>
-                        <div class="dropdown-menu border-0 bg-light" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
+                                        <p class="fs-7">
+                                            Playstation 4
+                                        </p>                                        
+                                    </card>
+        
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
 
-                    <li class="nav-item dropdown list-element-right">
-                        <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        My Playstation
-                        <img src="img/chevron-down-solid.svg" width="10px" height="10px" alt="">
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right border-0 bg-light" aria-labelledby="navbarDropdownMenuLink">
-                        <a class="dropdown-item" href="#">Action</a>
-                        <a class="dropdown-item" href="#">Another action</a>
-                        <a class="dropdown-item" href="#">Something else here</a>
-                        </div>
-                    </li>
+                                        <p class="fs-7 text-truncate">
+                                            Playstation 3
+                                        </p>       
+                                    </card>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-item text-center" href="#">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Servizi
+                            <img src="img/chevron-down-solid.svg" width="10px" height="10px" alt="">
+                            </a>
+
+                            <div class="dropdown-menu border-0 bg-white text-center" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="d-flex justify-content-center">
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7">
+                                            Playstation 5
+                                        </p>     
+                                    </card>
+
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7">
+                                            Playstation 4
+                                        </p>                                        
+                                    </card>
+        
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7 text-truncate">
+                                            Playstation 3
+                                        </p>       
+                                    </card>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-item text-center" href="#">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Novità
+                            <img src="img/chevron-down-solid.svg" width="10px" height="10px" alt="">
+                            </a>
+
+                            <div class="dropdown-menu border-0 bg-white text-center" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="d-flex justify-content-center">
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7">
+                                            Playstation 5
+                                        </p>     
+                                    </card>
+
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7">
+                                            Playstation 4
+                                        </p>                                        
+                                    </card>
+        
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7 text-truncate">
+                                            Playstation 3
+                                        </p>       
+                                    </card>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-item text-center" href="#">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Fai acquisti
+                            <img src="img/chevron-down-solid.svg" width="10px" height="10px" alt="">
+                            </a>
+
+                            <div class="dropdown-menu border-0 bg-white text-center" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="d-flex justify-content-center">
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7">
+                                            Playstation 5
+                                        </p>     
+                                    </card>
+
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7">
+                                            Playstation 4
+                                        </p>                                        
+                                    </card>
+        
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7 text-truncate">
+                                            Playstation 3
+                                        </p>       
+                                    </card>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-item text-center" href="#">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Supporto
+                            <img src="img/chevron-down-solid.svg" width="10px" height="10px" alt="">
+                            </a>
+
+                            <div class="dropdown-menu border-0 bg-white text-center" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="d-flex justify-content-center">
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7">
+                                            Playstation 5
+                                        </p>     
+                                    </card>
+
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7">
+                                            Playstation 4
+                                        </p>                                        
+                                    </card>
+        
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7 text-truncate">
+                                            Playstation 3
+                                        </p>       
+                                    </card>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-item text-center" href="#">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
+
+                        <li class="nav-item dropdown list-element-right">
+                            <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            My Playstation
+                            <img src="img/chevron-down-solid.svg" width="10px" height="10px" alt="">
+                            </a>
+
+                            <div class="dropdown-menu border-0 bg-white text-center" aria-labelledby="navbarDropdownMenuLink">
+                                <div class="d-flex justify-content-center">
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7">
+                                            Playstation 5
+                                        </p>     
+                                    </card>
+
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7">
+                                            Playstation 4
+                                        </p>                                        
+                                    </card>
+        
+                                    <card class="dropdown-item ps-icon-dropdown justify-content-center px-1" href="#">
+                                        <img src="img/play-menu-ico.png" class="card-img-top" alt="">
+
+                                        <p class="fs-7 text-truncate">
+                                            Playstation 3
+                                        </p>       
+                                    </card>
+                                </div>
+                                <div class="dropdown-divider"></div>
+                                <div class="dropdown-item text-center" href="#">
+                                    <ul class="list-inline">
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        <li class="list-inline-item"><a class="nested-menu-list" href="#">Link Giochi</a></li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
 
                     <div class="dropdown text-center login-search">
