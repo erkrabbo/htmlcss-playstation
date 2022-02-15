@@ -17,8 +17,22 @@
     max-width: calc(100% - var(--bs-gutter-x));
 } */
 
+.custom-rounded{
+    border-radius: 20px;
+}
 
 
+
+
+
+
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+}
 
 
 button.btn.custom-btn{
@@ -64,13 +78,23 @@ button.btn.custom-btn.red:active:focus{
     width: 150px;
 }
 
-header{
-    position: fixed;
-    top: 0;
-    left: 0;
 
-    width: 100%;
+
+.nested-menu-list{
+    text-decoration: none;
+
+    color: black;
 }
+.nested-menu-list::before{
+    content: "\1F535";
+    font-size: .3rem;
+
+    line-height: 1rem;
+    vertical-align: middle;
+
+    margin-right: .3rem;
+}
+
 
 
 
@@ -95,20 +119,6 @@ header{
 
 
 
-.nested-menu-list{
-    text-decoration: none;
-
-    color: black;
-}
-.nested-menu-list::before{
-    content: "\1F535";
-    font-size: .3rem;
-
-    line-height: 1rem;
-    vertical-align: middle;
-
-    margin-right: .3rem;
-}
 
 
 
