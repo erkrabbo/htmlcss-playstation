@@ -2,6 +2,15 @@
 :root{
     --header-height: 94px;
     --sony-black-bar-height: 28px;
+
+
+
+    /* colors */
+
+    --ps-new-arrivals-background: #1f1f1f;
+    --ps-plus-background: #bebcbb;
+    --ps-now-background: #161c3b;
+    --footer-background: #00439c;
 }
 
 
@@ -165,9 +174,51 @@ button.btn.custom-btn.red:active:focus{
 }
 
 
+
+
+
+.new-arrivals{
+    background-color: var(--ps-new-arrivals-background);
+}
+
+
+
+
+
+.ps-plus{
+    background-color: var(--ps-plus-background);
+}
+
+
+
+
+.ps-now{
+    background-color: var(--ps-now-background);
+}
+
+
+
+
+
 .social-logo{
     width: 50%;
 }
+
+
+
+
+
+footer{
+    background-color: var(--footer-background);
+}
+
+
+
+
+
+
+
+
 
 
 @media screen and (min-width: 576px) {
@@ -176,10 +227,6 @@ button.btn.custom-btn.red:active:focus{
     }
     
 }
-
-
-
-
 
 
 
