@@ -55,6 +55,17 @@ button.btn.custom-btn.red{
     box-shadow: 0 0 0 0.25rem rgba(var(--bs-danger-rgb),var(--bs-bg-opacity));
 }
 
+button.btn.custom-btn.button-blu{
+    color: white;
+    background-color: #0d6efd;
+    box-shadow: 0 0 0 0.25rem #0d6efd;
+}
+button.btn.custom-btn.button-blu:active:focus{
+    box-shadow: 0 0 0 0.25rem #0d6efd;
+    outline: 2px solid white;
+}
+
+
 button.btn.custom-btn.black:active:focus{
 
     box-shadow: 0 0 0 0.25rem rgb(0, 0, 0);
@@ -80,7 +91,7 @@ button.btn.custom-btn.red:active:focus{
     margin: 0; 
 } */
 
-.dropdown-item.ps-icon-dropdown{
+.dropdown-item.ps-icon-dropdown, {
     width: 150px;
 }
 
