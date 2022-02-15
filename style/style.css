@@ -67,7 +67,13 @@ button.btn.custom-btn.red:active:focus{
     outline: 2px solid white;
 }
 
+.sony-logo{
+    width: 60px;
+}
 
+.play-logo{
+    width: 40px;
+}
 
 
 /* .dropdown-menu{
@@ -76,6 +82,18 @@ button.btn.custom-btn.red:active:focus{
 
 .dropdown-item.ps-icon-dropdown{
     width: 150px;
+}
+
+.chevron-menu{
+    width: 10px;
+}
+
+.banner-img{
+    width: 300px;
+}
+
+.search-icon{
+    width: 35px;
 }
 
 
