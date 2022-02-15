@@ -1,6 +1,7 @@
 
 :root{
     --header-height: 94px;
+    --sony-black-bar-height: 28px;
 }
 
 
@@ -32,6 +33,12 @@ header{
     left: 0;
 
     width: 100%;
+}
+
+nav{
+
+    max-height: calc(100vh - var(--sony-black-bar-height));
+    overflow-y: auto;
 }
 
 
@@ -92,7 +99,7 @@ button.btn.custom-btn.red:active:focus{
 } */
 
 .dropdown-item.ps-icon-dropdown, {
-    width: 150px;
+    max-width: 150px;
 }
 
 .chevron-menu{
