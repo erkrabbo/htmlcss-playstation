@@ -48,7 +48,7 @@ nav{
 
 
 
-.dropdown-item.ps-icon-dropdown, {
+.dropdown-item.ps-icon-dropdown{
     max-width: 150px;
 }
 
@@ -132,9 +132,15 @@ nav{
 
 
 .hero{
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background: 
+    linear-gradient(to top, black, 10%, transparent),
+    url(../img/it-takes-two-hero-banner-desktop.jpg);
+    
+
     background-position: center;
     background-size: cover;
+
+    
 }
 
 
