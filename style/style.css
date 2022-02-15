@@ -1,38 +1,24 @@
-@media (min-width: 992px){
 
-    .dropdown.list-element-right{
-        margin-left: auto;
-        margin-right: 1rem;
-    }
-
-    .dropdown-menu.dropdown-menu-right{
-        right: 0;
-        left: auto;
-    }
-
-    button.btn.custom-btn{
-        margin-left: 1rem;
-        margin-right: 1rem;
-    }
-
-    .login-search{
-        display: flex;
-        width: 150px;
-    }
-
-    .login-search button{
-        margin-left: 1rem;
-
-        margin-right: 1.5rem;
-    }
-}
 
 
 .list-element-right{
     margin: auto;
 }
 
+.fs-7{
+    font-size: .9rem;
+}
+
+
+
+
+
 button.btn.custom-btn{
+    margin: 0 auto;
+
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    
     line-height: 1rem;
 
     border-radius: 3em;
@@ -51,9 +37,9 @@ button.btn.custom-btn:active:focus{
     min-width: none;
 }
 
-.fs-7{
-    font-size: .9rem;
-}
+
+
+
 
 .nested-menu-list{
     text-decoration: none;
@@ -68,4 +54,38 @@ button.btn.custom-btn:active:focus{
     vertical-align: middle;
 
     margin-right: .3rem;
+}
+
+.max-mobile{
+    max-width: calc(100% - var(--bs-gutter-x));
+}
+
+
+
+@media (min-width: 992px){
+
+    .dropdown.list-element-right{
+        margin-left: auto;
+        margin-right: 1rem;
+    }
+
+    .dropdown-menu.dropdown-menu-right{
+        right: 0;
+        left: auto;
+    }
+
+    button.btn.custom-btn{
+        margin: 0 1rem;
+    }
+
+    .login-search{
+        display: flex;
+        width: 150px;
+    }
+
+    .login-search button{
+        margin-left: 1rem;
+
+        margin-right: 1.5rem;
+    }
 }
