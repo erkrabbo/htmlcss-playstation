@@ -164,7 +164,9 @@ button.btn.custom-btn.red:active:focus{
     background-size: cover;
 }
 
-
+.plus-img{
+    height: 100%;
+}
 
 
 
