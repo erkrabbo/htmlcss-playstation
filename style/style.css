@@ -82,10 +82,6 @@ nav{
     display: none;
 }
 
-.chevron-menu-up-hover{
-    width: 10px;
-    display: none;
-}
 
 
 
@@ -173,10 +169,6 @@ nav{
 
 
 
-.console{
-    /* max-height: calc(100vh - var(--header-height)); */
-}
-
 .console-object{
     border: 3px solid transparent;
     opacity: .5;
@@ -192,7 +184,9 @@ nav{
 }
 
 
-
+.shadowed:hover{
+    box-shadow: 0 0 2px 0.25rem lightgrey;
+}
 
 .hero{
     background: 
