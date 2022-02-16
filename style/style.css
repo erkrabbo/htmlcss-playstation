@@ -20,9 +20,13 @@ header{
     position: fixed;
     top: 0;
     left: 0;
-    z-index: 99999;
+    right: 0;
 
-    width: 100%;
+    z-index: 99999;
+}
+
+.sony-black-bar{
+    height: var(--sony-black-bar-height);
 }
 
 nav{
@@ -63,6 +67,31 @@ nav{
 .search-icon{
     width: 35px;
 }
+
+
+
+.nav-link.black .chevron-menu-up{
+    width: 10px;
+    display: none;
+}
+
+.nav-link.black.show .chevron-menu{
+    display: none;
+}
+
+.nav-link.black.show .chevron-menu-up{
+    display: inline-block;
+
+    animation: rotate .5s;
+}
+
+@keyframes rotate {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+
 
 
 
@@ -118,6 +147,9 @@ nav{
 
 
 
+.console{
+    /* max-height: calc(100vh - var(--header-height)); */
+}
 
 .console-object{
     border: 3px solid transparent;
@@ -142,7 +174,7 @@ nav{
     url(../img/it-takes-two-hero-banner-desktop.jpg);
     
 
-    background-position: center;
+    background-position: left;
     background-size: cover;
 
     
@@ -205,9 +237,20 @@ footer{
 
 /*           LINKS             */
 
+.navbar-light .navbar-nav .nav-link.black{
+    color: black;
+}
+
+
+
+
 .reset-link{
     text-decoration: none;
-     /*     WHY??    */
+}
+
+.reset-link.blu{
+    background-color: var(--footer-background);
+    color: white;
 }
 .reset-link.white{
     background-color: white;
@@ -243,11 +286,13 @@ button.btn.custom-btn{
 
     border: 0;
     border-radius: 3em;
+
+    color: white;
 }
 
-
-
-
+button.btn.custom-btn:hover{
+    outline: 3px solid white;
+}
 
 
 
@@ -255,41 +300,18 @@ button.btn.custom-btn.black{
     box-shadow: 0 0 0 0.25rem rgb(0, 0, 0);
 }
 
-button.btn.custom-btn.black:active:focus{
-    box-shadow: 0 0 0 0.25rem rgb(0, 0, 0);
-    outline: 2px solid white;
-}
-
-
-
 
 
 button.btn.custom-btn.red{
     box-shadow: 0 0 0 0.25rem rgba(var(--bs-danger-rgb),var(--bs-bg-opacity));
 }
 
-button.btn.custom-btn.red:active:focus{
-    box-shadow: 0 0 0 0.25rem rgba(var(--bs-danger-rgb),var(--bs-bg-opacity));
-    outline: 2px solid white;
-}
-
-
-
 
 
 button.btn.custom-btn.button-blu{
-    color: white;
     background-color: #0d6efd;
     box-shadow: 0 0 0 0.25rem #0d6efd;
 }
-
-button.btn.custom-btn.button-blu:active:focus{
-    box-shadow: 0 0 0 0.25rem #0d6efd;
-    outline: 2px solid white;
-}
-
-
-
 
 
 
@@ -299,27 +321,21 @@ button.btn.custom-btn.button-grey{
     box-shadow: 0 0 0 0.25rem lightgrey;
 }
 
-button.btn.custom-btn.button-grey:active:focus{
-    box-shadow: 0 0 0 0.25rem lightgrey;
-    outline: 2px solid blue;
+button.btn.custom-btn.button-grey:hover{
+    outline: 3px solid blue;
 }
-
-
 
 
 
 button.btn.custom-btn.button-white{
     background-color: white;
+    color: black;
     box-shadow: 0 0 0 0.25rem rgb(255, 255, 255);
 }
 
-button.btn.custom-btn.button-white:active:focus{
-    box-shadow: 0 0 0 0.25rem rgb(255, 255, 255);
+button.btn.custom-btn.button-white:hover{
     outline: 2px solid black;
 }
-
-
-
 
 
 
@@ -356,22 +372,5 @@ button.btn.custom-btn.button-white:active:focus{
     .dropdown.list-element-right{
         margin-left: auto;
         margin-right: 1rem;
-    }
-
-
-
-    button.btn.custom-btn{
-        margin: 0 1rem;
-    }
-
-    .login-search{
-        display: flex;
-        width: 150px;
-    }
-
-    .login-search button{
-        margin-left: 1rem;
-
-        margin-right: 1.5rem;
     }
 }
