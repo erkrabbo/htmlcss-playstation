@@ -101,6 +101,8 @@ nav{
 
 .thumbnails .img-thumbnail{
     border: 3px solid transparent;
+
+    transition: transform .5s ease, box-shadow .5s ease;
 }
 
 .thumbnails .img-thumbnail.active, .thumbnails .img-thumbnail.active:hover{
@@ -109,6 +111,9 @@ nav{
 
 .thumbnails .img-thumbnail:hover{
     border-color: lightgrey;
+
+    transform: translate(0, -10px);
+    box-shadow: 0 10px 10px 0 grey;
 }
 
 
@@ -197,15 +202,29 @@ footer{
     border-radius: 20px;
 }
 
+
+/*           LINKS             */
+
 .reset-link{
     text-decoration: none;
-    color: white;
-
-    background-color: var(--ps-new-arrivals-background); /*     WHY??    */
+     /*     WHY??    */
+}
+.reset-link.white{
+    background-color: white;
+    color: black;
 }
 
-.reset-link:hover{
+.reset-link.dark{
     color: white;
+    background-color: var(--ps-new-arrivals-background);
+}
+
+.reset-link.dark:hover{
+    color: white;
+}
+
+.reset-link.white:hover{
+    color: black;
 }
 
 

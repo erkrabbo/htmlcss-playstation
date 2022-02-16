@@ -12,7 +12,7 @@
 </head>
 <body>
 
-    <header class="bg-light">
+    <header>
 
         <!-- black row on top -->
         <div class="bg-black pb-1 px-1 text-end w-100">
@@ -22,7 +22,7 @@
         <div class="container-fluid bg-white">
             
             <!-- nav menu, expands only in lg -->
-            <nav class="navbar navbar-expand-lg flex-grow-1 navbar-light">
+            <nav class="navbar navbar-expand-lg flex-grow-1 navbar-light px-1">
                 <a class="navbar-brand" href="#">
                     <img src="img/play_logo.svg" class="play-logo" alt="">
                 </a>
@@ -365,7 +365,7 @@
     </header>
 
     <section class="jumbotron text-white mb-5">
-        <div class="container-xxl">
+        <div class="container-fluid">
             <div class="row align-items-end">
                 <div class="col-lg-6">
                     <img src="img/returnal-hero-banner-logo.png" class="mb-3 banner-img" alt="">
@@ -387,8 +387,8 @@
     </section>
 
     <section class="thumbnails mb-5">
-        <div class="container-xxl">
-            <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 g-2">
+        <div class="container-fluid">
+            <div class="row row-cols-2 row-cols-sm-3 row-cols-lg-6 g-3">
                 <div class="col">
                     <a href="#">
                         <img src="img/returnal-listing-thumb-01-ps5.jpg" class="img-thumbnail custom-rounded active" alt="">
@@ -424,12 +424,12 @@
     </section>
 
     <section class="console pt-5 mb-5">
-        <div class="container-xxl">
-            <div class="row mb-3">
+        <div class="container-fluid">
+            <div class="row">
                 <div class="col text-center">
                     <span class="text-primary text-uppercase">play has no limits</span>
                     <h2 class="h2 mb-3">Ecco la Playstation 5</h2>
-                    <p class="text-muted font-weight-bold fs-4">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
+                    <p class="text-muted font-weight-bold fs-4 mb-3">Tuffati in nuove possibilità di gioco completamente inaspettate</p>
                 </div>
             </div>
 
@@ -446,30 +446,40 @@
                 </div>
             </div>
 
-            <div class="row row-cols-3 row-cols-md-5 g-2">
-                <div class="col">
-                    <a href="#">
-                        <img src="img/playstation-5-thumb.png" class="img-thumbnail console-object active" alt="">
+            <div class="row row-cols-3 row-cols-md-5 g-2 text-center">
+
+                <div class="col d-flex console-object active">
+                    <a href="#" class="d-flex flex-wrap reset-link white">
+                        <img src="img/playstation-5-thumb.png" class="img-fluid p-4" alt="">    
+                        <p class="flex-grow-1 align-self-center">Console PS5</p>
                     </a>
                 </div>
-                <div class="col">
-                    <a href="#">
-                        <img src="img/joypad-thumb.png"  class="img-thumbnail console-object" alt="">
+                
+                <div class="col d-flex console-object">
+                    <a href="#" class="d-flex flex-wrap reset-link white">
+                        <img src="img/joypad-thumb.png" class="img-fluid p-4" alt="">    
+                        <p class="flex-grow-1 align-self-center">Controller wireless dualsense&trade;</p>
                     </a>
                 </div>
-                <div class="col">
-                    <a href="#">
-                        <img src="img/headset-thumb.png" class="img-thumbnail console-object"  alt="">
+
+                <div class="col d-flex console-object">
+                    <a href="#" class="d-flex flex-wrap reset-link white">
+                        <img src="img/headset-thumb.png" class="img-fluid p-4" alt="">
+                        <p class="flex-grow-1 align-self-center">Cuffie wireless con microfono PULSE 3&trade;</p>
                     </a>
                 </div>
-                <div class="col">
-                    <a href="#">
-                        <img src="img/remote-thumb.png"  class="img-thumbnail console-object" alt="">
+
+                <div class="col d-flex console-object">
+                    <a href="#" class="d-flex flex-wrap reset-link white">
+                        <img src="img/remote-thumb.png"  class="img-fluid p-4" alt="">
+                        <p class="flex-grow-1 align-self-center">Telecomando media</p>
                     </a>
                 </div>
-                <div class="col">
-                    <a href="#">
-                        <img src="img/camera-thumb.jpg"  class="img-thumbnail console-object" alt="">
+
+                <div class="col d-flex console-object">
+                    <a href="#" class="d-flex flex-wrap reset-link white">
+                        <img src="img/camera-thumb.jpg"  class="img-fluid p-4" alt="">
+                        <p class="flex-grow-1 align-self-center">Telecamera HD</p>
                     </a>
                 </div>
             </div>
@@ -508,7 +518,7 @@
                 <div class="col">
                     <div class="card border-0">
                         
-                        <a class="reset-link" href="#">
+                        <a class="reset-link dark" href="#">
                             <img class="card-img-top" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
                             <span class="card-text bg-dark">
                                 Tony Hawk's&trade; Pro Skater&trade; 1 + 2
@@ -520,7 +530,7 @@
                 <div class="col">
                     <div class="card border-0">
                         
-                        <a class="reset-link" href="#">
+                        <a class="reset-link dark" href="#">
                             <img class="card-img-top" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
                             <span class="card-text bg-dark">
                                 Crash Bandicoot 4: It's About Time
@@ -531,7 +541,7 @@
                 <div class="col">
                     <div class="card border-0">
                         
-                        <a class="reset-link" href="#">
+                        <a class="reset-link dark" href="#">
                             <img class="card-img-top" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
                             <span class="card-text bg-dark">
                                 Tony Hawk's&trade; Pro Skater&trade; 1 + 2
@@ -542,7 +552,7 @@
                 <div class="col">
                     <div class="card border-0">
                         
-                        <a class="reset-link" href="#">
+                        <a class="reset-link dark" href="#">
                             <img class="card-img-top" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
                             <span class="card-text bg-dark">
                                 Crash Bandicoot 4: It's About Time
@@ -553,7 +563,7 @@
                 <div class="col">
                     <div class="card border-0">
                         
-                        <a class="reset-link" href="#">
+                        <a class="reset-link dark" href="#">
                             <img class="card-img-top" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
                             <span class="card-text bg-dark">
                                 Tony Hawk's&trade; Pro Skater&trade; 1 + 2
@@ -564,7 +574,7 @@
                 <div class="col">
                     <div class="card border-0">
                         
-                        <a class="reset-link" href="#">
+                        <a class="reset-link dark" href="#">
                             <img class="card-img-top" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
                             <span class="card-text bg-dark">
                                 Crash Bandicoot 4: It's About Time
@@ -576,7 +586,7 @@
                 <div class="col">
                     <div class="card border-0">
                         
-                        <a class="reset-link" href="#">
+                        <a class="reset-link dark" href="#">
                             <img class="card-img-top" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
                             <span class="card-text bg-dark">
                                 Tony Hawk's&trade; Pro Skater&trade; 1 + 2
@@ -587,7 +597,7 @@
                 <div class="col">
                     <div class="card border-0">
                         
-                        <a class="reset-link" href="#">
+                        <a class="reset-link dark" href="#">
                             <img class="card-img-top" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
                             <span class="card-text bg-dark">
                                 Crash Bandicoot 4: It's About Time
@@ -598,7 +608,7 @@
                 <div class="col">
                     <div class="card border-0">
                         
-                        <a class="reset-link" href="#">
+                        <a class="reset-link dark" href="#">
                             <img class="card-img-top" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
                             <span class="card-text bg-dark">
                                 Tony Hawk's&trade; Pro Skater&trade; 1 + 2
@@ -609,7 +619,7 @@
                 <div class="col">
                     <div class="card border-0">
                         
-                        <a class="reset-link" href="#">
+                        <a class="reset-link dark" href="#">
                             <img class="card-img-top" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
                             <span class="card-text bg-dark">
                                 Crash Bandicoot 4: It's About Time
@@ -620,7 +630,7 @@
                 <div class="col">
                     <div class="card border-0">
                         
-                        <a class="reset-link" href="#">
+                        <a class="reset-link dark" href="#">
                             <img class="card-img-top" src="img/tony-hawks-pro-skater-1-2-store-art.jpg" alt="">
                             <span class="card-text bg-dark">
                                 Tony Hawk's&trade; Pro Skater&trade; 1 + 2
@@ -629,9 +639,9 @@
                     </div>
                 </div>
                 <div class="col">
-                    <div class="card border-0">
-                        
-                        <a class="reset-link" href="#">
+                    <div class="card border-0">   
+                     
+                        <a class="reset-link dark" href="#">
                             <img class="card-img-top" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="">
                             <span class="card-text bg-dark">
                                 Crash Bandicoot 4: It's About Time
@@ -767,9 +777,14 @@
     <section class="social-media pt-5">
         <div class="container-sm">
             
-            <h2 class="h2 mb-5 text-center">Nuovi sconti sul PlayStation Store</h2>
+            
 
             <div class="row justify-content-center">
+                
+                <div class="col-12">
+                    <h2 class="h2 mb-5 text-center">Nuovi sconti sul PlayStation Store</h2>
+                </div>
+
                 <div class="col-12 col-sm-10 col-md-8 col-lg-6 d-flex flex-wrap g-2">
 
                     <a class="social-logo" href="#">
