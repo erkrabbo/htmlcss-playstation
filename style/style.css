@@ -56,9 +56,6 @@ nav{
     max-width: 150px;
 }
 
-.chevron-menu{
-    width: 10px;
-}
 
 .banner-img{
     width: 300px;
@@ -70,19 +67,45 @@ nav{
 
 
 
-.nav-link.black .chevron-menu-up{
+.chevron-menu{
+    width: 10px;
+}
+
+.chevron-down-hover{
     width: 10px;
     display: none;
+}
+
+
+.chevron-menu-up{
+    width: 10px;
+    display: none;
+}
+
+.chevron-menu-up-hover{
+    width: 10px;
+    display: none;
+}
+
+
+
+.nav-link.black:hover .chevron-menu{
+    display: none;
+}
+
+.nav-link.black:hover .chevron-down-hover{
+    display: inline-block;
 }
 
 .nav-link.black.show .chevron-menu{
     display: none;
 }
 
+
 .nav-link.black.show .chevron-menu-up{
     display: inline-block;
 
-    animation: rotate .5s;
+    animation: rotate .3s ease-out;
 }
 
 @keyframes rotate {
@@ -91,6 +114,9 @@ nav{
     }
 }
 
+.nav-link.black.show:hover .chevron-down-hover{
+    display: none;
+}
 
 
 
