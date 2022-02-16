@@ -207,6 +207,9 @@ nav{
     background-color: var(--ps-new-arrivals-background);
 }
 
+.new-arrivals .card:hover{
+    transform: scale(1.1);
+}
 
 
 
