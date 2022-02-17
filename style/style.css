@@ -67,51 +67,45 @@ nav{
 
 
 
+.chevrons{
+    width: 10px;
+    height: 10px;
+}
+
 .chevron-menu{
-    width: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    transition: opacity .2s ease;
 }
 
-.chevron-down-hover{
-    width: 10px;
-    display: none;
-}
-
-
-.chevron-menu-up{
-    width: 10px;
-    display: none;
+.chevron-menu.hover{
+    opacity: 0;
 }
 
 
-
-
-.nav-link.black:hover .chevron-menu{
-    display: none;
+.nav-link.black:hover .chevron-menu.idle{
+    opacity: 0;
 }
 
-.nav-link.black:hover .chevron-down-hover{
-    display: inline-block;
+.nav-link.black:hover .chevron-menu.hover{
+    opacity: 1;
 }
 
 .nav-link.black.show .chevron-menu{
-    display: none;
+    transform: rotate(180deg);
 }
 
 
-.nav-link.black.show .chevron-menu-up{
-    display: inline-block;
-
-    animation: rotate .3s ease-out;
+.nav-link.black.show .chevron-menu{
+    animation: rotate .2s ease-out;
 }
 
 @keyframes rotate {
-    100%{
+    0%{
         transform: rotate(360deg);
     }
-}
-
-.nav-link.black.show:hover .chevron-down-hover{
-    display: none;
 }
 
 
