@@ -181,6 +181,9 @@ nav{
 }
 
 
+.shadowed{
+    margin-bottom: .5rem;
+}
 .shadowed:hover{
     box-shadow: 0 0 2px 0.25rem lightgrey;
 }
