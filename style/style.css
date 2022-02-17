@@ -16,6 +16,8 @@
 
 
 
+/*                         STRUCT                           */
+
 header{
     position: fixed;
     top: 0;
@@ -25,46 +27,22 @@ header{
     z-index: 99999;
 }
 
+        /* sony black top bar */
 .sony-black-bar{
     height: var(--sony-black-bar-height);
 }
-
-nav{
-    max-height: calc(100vh - var(--sony-black-bar-height));
-    overflow-y: auto;
-}
-
-
-
-
-
 
 .sony-logo{
     width: 60px;
 }
 
-.play-logo{
-    width: 40px;
+
+
+        /* navbar */
+nav{
+    max-height: calc(100vh - var(--sony-black-bar-height));
+    overflow-y: auto;
 }
-
-
-
-
-
-
-.dropdown-item.ps-icon-dropdown{
-    max-width: 150px;
-}
-
-
-.banner-img{
-    width: 300px;
-}
-
-.search-icon{
-    width: 35px;
-}
-
 
 
 
@@ -112,11 +90,16 @@ nav{
 
 
 
-.nested-menu-list{
-    text-decoration: none;
-
-    color: black;
+.shadowed{
+    margin-bottom: .5rem;
 }
+.shadowed:hover{
+    box-shadow: 0 0 2px 0.25rem lightgrey;
+}
+
+
+
+
 .nested-menu-list::before{
     content: "\1F535";
     font-size: .3rem;
@@ -129,7 +112,7 @@ nav{
 
 
 
-
+        /*       jumbo         */
 .jumbotron{
     background-image: url(../img/jumbo-bg.png);
     background-position: top;
@@ -138,19 +121,24 @@ nav{
     margin-top: var(--header-height);
 }
 
-.jumbotron .row{
+.jumbotron .row:first-child{
     height: calc(100vh - var(--header-height));
 
     min-height: 400px;
 }
 
+.banner-img{            /* <== common */      
+    max-width: 300px;
+ }
 
 
 
+
+        /*       thumbnails        */
 .thumbnails .img-thumbnail{
     border: 3px solid transparent;
 
-    transition: transform .5s ease, box-shadow .5s ease;
+    transition: transform .2s ease-out, box-shadow .5s ease;
 }
 
 .thumbnails .img-thumbnail.active, .thumbnails .img-thumbnail.active:hover{
@@ -161,11 +149,11 @@ nav{
     border-color: lightgrey;
 
     transform: translate(0, -10px);
-    box-shadow: 0 10px 10px 0 grey;
+    box-shadow: 0 10px 20px -5px grey;
 }
 
 
-
+        /*       console       */
 .console-object{
     border: 3px solid transparent;
     opacity: .5;
@@ -181,13 +169,10 @@ nav{
 }
 
 
-.shadowed{
-    margin-bottom: .5rem;
-}
-.shadowed:hover{
-    box-shadow: 0 0 2px 0.25rem lightgrey;
-}
 
+
+
+        /*       hero      */
 .hero{
     background: 
     linear-gradient(to top, black, 10%, transparent),
@@ -202,7 +187,7 @@ nav{
 
 
 
-
+        /*       new arrivals        */
 .new-arrivals{
     background-color: var(--ps-new-arrivals-background);
 }
@@ -212,27 +197,27 @@ nav{
 }
 
 
-
+        /*       ps plus       */
 .ps-plus{
     background-color: var(--ps-plus-background);
 }
 
 
 
-
+        /*       ps now        */
 .ps-now{
     background-color: var(--ps-now-background);
 }
 
 
 
-
+        /*       social media      */
 .social-logo{
     width: 50%;
 }
 
 
-
+        /*      footer       */
 
 footer{
     background-color: var(--footer-background);
