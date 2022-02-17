@@ -211,16 +211,41 @@ nav{
 
 
 
+        /*       discounts       */
+.discount-img{
+    transition: transform .2s ease-out;
+}
+.discount-img:hover{
+    transform: scale(1.05);
+}
+
+
+
         /*       social media      */
 .social-logo{
     width: 50%;
+
+    transition: transform .2s ease-out;
 }
+
+.social-logo:hover{
+    transform: scale(1.1);
+}
+
 
 
         /*      footer       */
 
 footer{
     background-color: var(--footer-background);
+}
+
+footer .reset-link.blu:hover{
+    text-decoration: underline;
+
+    font-size: 1.1rem;
+
+    line-height: 1;
 }
 
 
