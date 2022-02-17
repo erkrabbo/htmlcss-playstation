@@ -67,6 +67,8 @@ nav{
 
 
 
+
+
 .chevrons{
     width: 10px;
     height: 10px;
@@ -83,7 +85,6 @@ nav{
 .chevron-menu.hover{
     opacity: 0;
 }
-
 
 .nav-link.black:hover .chevron-menu.idle{
     opacity: 0;
@@ -139,6 +140,8 @@ nav{
 
 .jumbotron .row{
     height: calc(100vh - var(--header-height));
+
+    min-height: 400px;
 }
 
 
