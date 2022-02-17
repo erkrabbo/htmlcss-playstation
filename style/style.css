@@ -45,8 +45,6 @@ nav{
 }
 
 
-
-
 .chevrons{
     width: 10px;
     height: 10px;
@@ -190,6 +188,10 @@ nav{
         /*       new arrivals        */
 .new-arrivals{
     background-color: var(--ps-new-arrivals-background);
+}
+
+.new-arrivals .card{
+    transition: transform .3s ease-out;
 }
 
 .new-arrivals .card:hover{
