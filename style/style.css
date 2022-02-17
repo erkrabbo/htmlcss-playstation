@@ -62,20 +62,20 @@ nav{
     opacity: 0;
 }
 
-.nav-link.black:hover .chevron-menu.idle{
+.nav-link.grey:hover .chevron-menu.idle{
     opacity: 0;
 }
 
-.nav-link.black:hover .chevron-menu.hover{
+.nav-link.grey:hover .chevron-menu.hover{
     opacity: 1;
 }
 
-.nav-link.black.show .chevron-menu{
+.nav-link.grey.show .chevron-menu{
     transform: rotate(180deg);
 }
 
 
-.nav-link.black.show .chevron-menu{
+.nav-link.grey.show .chevron-menu{
     animation: rotate .2s ease-out;
 }
 
@@ -272,7 +272,11 @@ footer .reset-link.blu:hover{
 
 /*           LINKS             */
 
-.navbar-light .navbar-nav .nav-link.black{
+.navbar-light .navbar-nav .nav-link.grey{
+    color: grey;
+}
+
+.navbar-light .navbar-nav .nav-link.grey:hover{
     color: black;
 }
 
